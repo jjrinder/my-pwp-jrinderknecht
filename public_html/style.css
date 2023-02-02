@@ -2,15 +2,23 @@ body {
     margin: 0;
 }
 
-.class {
-    background-color:
-    in case image doesn't load
-    background-image: url(../);
+.bg-image {
+    background-color: lightgray;
+    background-image: url('https://picsum.photos/1200/860');
     background-size: cover;
+    min-height: 80vh;
+    width: 100vw;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-shadow: 2px 2px 2px rgb(0,0,0);
+}
 
-    padding-top:
-    padding-bottom: (to center text; don't use height')
-    1200px for width
-
-
+@media (max-width: 768px) {
+    .bg-image {
+        min-height: 40vh;
+    }
+    text-class {
+        font-size:calc(1.525rem + 3.3vw);
+    }
 }
