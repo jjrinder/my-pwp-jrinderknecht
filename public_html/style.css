@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Merriweather, serif;
 }
 
 .bg-image {
@@ -21,4 +22,9 @@ body {
     text-class {
         font-size:calc(1.525rem + 3.3vw);
     }
+}
+
+.sunday-paragraph {
+    color: white;
+    font-family: Merriweather;
 }
