@@ -3,26 +3,34 @@ body {
     font-family: Merriweather, serif;
 }
 
-.bg-image {
-    background-color: lightgray;
+.bg-img {
+    background-color: darkslategrey;
+    background-blend-mode: multiply;
     background-image: url('https://picsum.photos/1200/860');
     background-size: cover;
+    background-repeat: no-repeat;
     min-height: 80vh;
     width: 100vw;
     position: relative;
-    padding-top: 200px;
-    padding-bottom: 200px;
     text-shadow: 2px 2px 2px rgb(0,0,0);
 }
 
-@media (max-width: 768px) {
-    .bg-image {
-        min-height: 40vh;
-    }
-    text-class {
-        font-size:calc(1.525rem + 3.3vw);
-    }
+
+.navbar {
+    background-color: transparent;
+    text-color: white;
 }
+
+
+
+/*@media (max-width: 768px) {*/
+/*    .bg-image {*/
+/*        min-height: 40vh;*/
+/*    }*/
+/*    text-class {*/
+/*        font-size:calc(1.525rem + 3.3vw);*/
+/*    }*/
+/*}*/
 
 .sunday-paragraph {
     color: white;
