@@ -4,9 +4,9 @@ body {
 }
 
 .bg-img {
-    background-color: gray;
-    background-blend-mode: multiply;
-    background-image: url('https://picsum.photos/1200/860');
+    background-color: lightgrey;
+    /*background-blend-mode: multiply;*/
+    background-image: url(./opening-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
@@ -21,7 +21,9 @@ body {
     text-color: white;
 }
 
-
+.welcome {
+    font-weight: bolder;
+}
 
 /*@media (max-width: 768px) {*/
 /*    .bg-image {*/
@@ -45,4 +47,9 @@ body {
 .eventsTwo {
     color: black;
     minimum-height: 8rem;
+}
+
+#midweek-img {
+    height: 20rem;
+    width: 20rem;
 }
