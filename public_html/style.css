@@ -6,7 +6,7 @@ body {
 .bg-img {
     background-color: lightgrey;
     /*background-blend-mode: multiply;*/
-    background-image: url(./opening-photo.jpg);
+    background-image: url(opening-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
