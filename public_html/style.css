@@ -25,6 +25,10 @@ body {
     height: 1.5rem;
 }
 
+#logo-2 {
+    height: 2rem;
+}
+
 .welcome {
     font-weight: bolder;
 }
@@ -54,12 +58,16 @@ body {
     minimum-height: 8rem;
 }
 
-#midweek-img {
-    height: 20rem;
-    width: 20rem;
+#sunday-img, #gamenight-img {
+    transform: rotate(-4deg);
 }
 
-#camp-img {
+
+#midweek-img, #camp-img {
     transform: rotate(4deg);
 }
 
+#map {
+    text-decoration: none;
+    color: white;
+}
