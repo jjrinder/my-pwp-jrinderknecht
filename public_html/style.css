@@ -6,7 +6,7 @@ body {
 .bg-img {
     background-color: lightgrey;
     /*background-blend-mode: multiply;*/
-    background-image: url(opening-photo.jpg);
+    background-image: url(media/opening-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
@@ -19,6 +19,10 @@ body {
 .navbar {
     background-color: transparent;
     text-color: white;
+}
+
+#logo {
+    height: 1.5rem;
 }
 
 .welcome {
@@ -42,6 +46,7 @@ body {
 .eventsOne {
     color: white;
     minimum-height: 8rem;
+    background-color: #425382;
 }
 
 .eventsTwo {
@@ -53,3 +58,8 @@ body {
     height: 20rem;
     width: 20rem;
 }
+
+#camp-img {
+    transform: rotate(4deg);
+}
+
