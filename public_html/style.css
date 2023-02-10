@@ -5,20 +5,23 @@ body {
 
 .bg-img {
     background-color: lightgrey;
-    /*background-blend-mode: multiply;*/
-    background-image: url(media/opening-photo.jpg);
+    background-blend-mode: multiply;
+    background-image: url(media/main-photo-2.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
     width: 100vw;
     position: relative;
-    text-shadow: 2px 2px 2px rgb(0,0,0);
+    /*text-shadow: 2px 2px 2px rgb(0,0,0);*/
 }
 
 
 .navbar {
     background-color: transparent;
-    text-color: white;
+}
+
+.navbar-toggler-icon {
+    font-weight: bold;
 }
 
 #logo {
@@ -47,6 +50,10 @@ body {
     font-family: Merriweather;
 }
 
+.h2 {
+    font-weight: bold;
+}
+
 .eventsOne {
     color: white;
     minimum-height: 8rem;
@@ -58,6 +65,10 @@ body {
     minimum-height: 8rem;
 }
 
+img {
+    margin: 1rem 0;
+}
+
 #sunday-img, #gamenight-img {
     transform: rotate(-4deg);
 }
@@ -65,6 +76,7 @@ body {
 
 #midweek-img, #camp-img {
     transform: rotate(4deg);
+    border: #425382;
 }
 
 #map {

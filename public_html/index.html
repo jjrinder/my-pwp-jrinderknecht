@@ -16,14 +16,15 @@
 <body>
 
 <!--Jumbo area: navbar, background image, welcome text-->
+<section>
 <div class="container-fluid bg-img">
     <div class="row">
         <div class="col">
-            <nav class="navbar navbar-expand-lg navbar-light px-3 mt-3">
-                <span class="navbar-brand text-white" href="#"><img src="./media/logo.png" id="logo">&nbsp Students at First West</span>
+            <nav class="navbar  navbar-dark navbar-expand-lg navbar-light px-3 mt-3">
+                <span class="navbar-brand text-white"><img src="./media/logo.png" id="logo">&nbsp Students at First West</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon color-dark"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
@@ -52,9 +53,11 @@
         </div>
     </div>
 </div>
+</section>
 
 <!--Who We Are section-->
-<div class="container p-5 m-5" id="About-Us">
+<section class="container-fluid">
+<div class="container p-5" id="About-Us">
     <div class="row justify-content-center">
         <div class="col-10 text-center">
             <p>First Baptist Church of West Albuquerque was started in 1988 through the efforts of five local
@@ -62,71 +65,74 @@
         </div>
     </div>
 </div>
+</section>
 
 
 <!--Sundays-->
-<div class="eventsOne py-3">
+<section class="eventsOne py-3">
     <div class="container" id="sunday">
         <div class="row g-5 d-flex align-items-center justify-content-start">
-            <div class="col-sm col-md-5 py-4 align-self-center">
-                <img src="https://picsum.photos/200/300" alt="" class="rounded-5 d-block mx-auto p-0" id="sunday-img"/>
+            <div class="col-sm col-md-5 py-4 align-self-center img-container-one">
+                <img src="https://picsum.photos/350/300" alt="" class="rounded-5 d-block mx-auto p-0" id="sunday-img"/>
             </div>
-            <div class="col-sm col-md-6 text-center align-self-center">
+            <div class="col-sm col-md-6 text-center align-self-center border border-white p-3 rounded">
                 <h2 class="h4">Sundays</h2>
                 <p class="text-white" id="sunday-paragraph"> This is what happens on Sundays.</p>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!--Mid-Week Bible Study-->
-<<div class="bg-white py-3 eventsTwo">
+<section class="bg-white py-3 eventsTwo">
     <div class="container" id="midweek">
         <div class="row g-1 d-flex flex-row-reverse align-items-center justify-content-between">
             <div class="col-sm col-md-5 py-4 align-self-center">
-                <img src="https://picsum.photos/200/300" alt="" class="rounded-5 d-block mx-auto p-0" id="midweek-img"/>
+                <img src="https://picsum.photos/350/300" alt="" class="rounded-5 d-block mx-auto p-0" id="midweek-img"/>
             </div>
-            <div class="col-sm col-md-6 text-center align-self-center">
+            <div class="col-sm col-md-6 align-self-center border border-dark p-3 rounded">
                 <h2 class="h4">Mid-week Bible Study</h2>
                 <p class="text-black" id="mid-week"> This is what happens at out mid-week Bible Study.</p>
+                <p class="fw-bold">Wednesdays from 6:30 p.m to 7:45 p.m.</p>
             </div>
-
         </div>
     </div>
-</div>
+</section>
 
 <!--Game Night-->
-<div class="py-3 eventsOne">
+<section class="py-3 eventsOne">
     <div class="container" id="game-night">
         <div class="row g-1 d-flex align-items-center justify-content-start">
             <div class="col-sm col-md-5 py-4 align-self-center">
-                <img src="https://picsum.photos/200/300" alt="" class="rounded-5 d-block mx-auto p-0 img-fluid" id="gamenight-img"/>
+                <img src="https://picsum.photos/350/300" alt="" class="rounded-5 d-block mx-auto p-0 img-fluid" id="gamenight-img"/>
             </div>
-            <div class="col-sm col-md-6 text-center align-self-center">
+            <div class="col-sm col-md-6 align-self-center border border-white p-3 rounded">
                 <h2 class="h4">Game Night</h2>
-                <p class="text-white" id="game-night-paragraph"> This is what happens on Sundays.</p>
+                <p class="text-white" id="game-night-paragraph"> One Friday a month, we hang out at the church and play a variety of games: card-games, foosball, the wii...</p>
+                <p class="text-white">Pizza is provided.</p>
+                <p class="fw-bold">2nd Friday of the month, from 6 p.m. to 8 p.m.</p>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!--Camp-->
-<div class="bg-white py-3 eventsTwo">
+<section class="bg-white py-3 eventsTwo">
     <div class="container" id="camp">
         <div class="row g-1 d-flex flex-row-reverse align-items-center justify-content-between">
             <div class="col-sm col-md-5 py-4 align-self-center">
-                <img src="https://picsum.photos/200/300" alt="" class="rounded-5 d-block mx-auto p-0" id="camp-img" id="camp-img"/>
+                <img src="./media/camp.jpg" alt="" class="rounded-5 d-block mx-auto p-0" id="camp-img" id="camp-img"/>
             </div>
-            <div class="col-sm col-md-6 align-self-center">
+            <div class="col-sm col-md-6 align-self-center border border-dark p-3 rounded">
                 <h2 class="h4">Summer Camp</h2>
                 <p class="text-black" id="camp-paragrah"> Student Camp is five days at <em>Inlow Baptist Camp</em> in the beautiful Manzano Mountains.</p>
-                <p>There is no cell-reception so it is the perfect place to get away from everyday life, worship God, and connect with others.</p>
+                <p>It is the perfect place to get away from everyday life, worship God, and connect with others.</p>
                 <p class="fw-bold">June 26 - 30</p>
             </div>
 
         </div>
     </div>
-</div>
+</section>
 
 <!--Upcoming Events-->
 <section>
@@ -153,11 +159,12 @@
             <a href="https://www.google.com/maps/place/First+Baptist+Church+of+West+Albuquerque/@35.159319,-106.693177,17z/data=!3m1!4b1!4m5!3m4!1s0x872272387a42f5bb:0x507f497f73be35dc!8m2!3d35.159319!4d-106.690983" id="map">6400 Golf Course Rd NW<br>Albuquerque, NM 87120</br></a>
         </div>
         <div class="col p-0">
-            <p>info@fbcwa.org</p>
-        </div>
-        <div class="col p-0">
+            <p class="mb-0">info@fbcwa.org</p>
             <p>(505) 899-0665</p>
         </div>
+<!--        <div class="col p-0">-->
+<!--            <p>| (505) 899-0665</p>-->
+<!--        </div>-->
     </div>
 </div>
 </section>
