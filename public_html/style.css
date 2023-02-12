@@ -34,7 +34,12 @@ body {
 
 .welcome {
     font-weight: bolder;
+    font-size: 2.5rem;
 }
+
+.welcome p (
+display: block;
+)
 
 /*@media (max-width: 768px) {*/
 /*    .bg-image {*/
@@ -83,3 +88,7 @@ img {
     text-decoration: none;
     color: white;
 }
+
+footer (
+background-color: #424242;
+)
