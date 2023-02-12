@@ -73,17 +73,17 @@ img {
 #sunday-img, #gamenight-img {
     transform: rotate(-4deg);
     display: inline-block;
-    filter: drop-shadow(-10px -10px 4px white);
+    filter: drop-shadow(-10px 10px 4px white);
 }
 
 #sunday-img {
     filter: grayscale(100%) drop-shadow(-10px -10px 4px white);
-    filter: drop-shadow(-10px -10px 4px white);
+    filter: drop-shadow(-10px 10px 4px white);
 }
 
 #midweek-img, #camp-img {
     transform: rotate(4deg);
-    border: #425382;
+    filter: drop-shadow(10px 10px 4px #425382);
 }
 
 .icons {
