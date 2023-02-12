@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Merriweather, serif;
+    overflow-x: hidden;
 }
 
 .bg-img {
@@ -10,8 +11,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
+    /*filter: blur(3px);*/
     /*text-shadow: 2px 2px 2px rgb(0,0,0);*/
 }
 
@@ -35,6 +37,7 @@ body {
 .welcome {
     font-weight: bolder;
     font-size: 2.5rem;
+    min-width: 30rem;
 }
 
 .welcome p (
@@ -50,10 +53,6 @@ display: block;
 /*    }*/
 /*}*/
 
-
-#About-Us {
-    font-family: Merriweather;
-}
 
 .h2 {
     font-weight: bold;
@@ -78,10 +77,17 @@ img {
     transform: rotate(-4deg);
 }
 
+#sunday-img {
+    filter: grayscale(100%);
+}
 
 #midweek-img, #camp-img {
     transform: rotate(4deg);
     border: #425382;
+}
+
+.icons {
+    height: 2rem;
 }
 
 #map {
