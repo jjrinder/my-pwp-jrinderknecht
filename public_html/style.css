@@ -22,9 +22,6 @@ body {
     background-color: transparent;
 }
 
-.navbar-toggler-icon {
-    font-weight: bold;
-}
 
 #logo {
     height: 1.5rem;
@@ -37,12 +34,11 @@ body {
 .welcome {
     font-weight: bolder;
     font-size: 2.5rem;
-    min-width: 30rem;
 }
 
-.welcome p (
+.welcome p {
 display: block;
-)
+}
 
 /*@media (max-width: 768px) {*/
 /*    .bg-image {*/
@@ -60,13 +56,14 @@ display: block;
 
 .eventsOne {
     color: white;
-    minimum-height: 8rem;
+    min-height: 8rem;
     background-color: #425382;
+    image-shadow: 2px 2px 2px rgb(0,0,0);
 }
 
 .eventsTwo {
     color: black;
-    minimum-height: 8rem;
+    min-height: 8rem;
 }
 
 img {
@@ -75,10 +72,13 @@ img {
 
 #sunday-img, #gamenight-img {
     transform: rotate(-4deg);
+    display: inline-block;
+    filter: drop-shadow(-10px -10px 4px white);
 }
 
 #sunday-img {
-    filter: grayscale(100%);
+    filter: grayscale(100%) drop-shadow(-10px -10px 4px white);
+    filter: drop-shadow(-10px -10px 4px white);
 }
 
 #midweek-img, #camp-img {
@@ -95,6 +95,6 @@ img {
     color: white;
 }
 
-footer (
+footer {
 background-color: #424242;
-)
+}
