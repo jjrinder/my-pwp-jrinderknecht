@@ -12,16 +12,11 @@ body {
     background-repeat: no-repeat;
     min-height: 70vh;
     width: 100%;
-    /*position: relative;*/
-    /*filter: blur(3px);*/
-    /*text-shadow: 2px 2px 2px rgb(0,0,0);*/
 }
-
 
 .navbar {
     background-color: transparent;
 }
-
 
 #logo {
     height: 1.5rem;
@@ -42,21 +37,13 @@ body {
 display: block;
 }
 
-/*@media (max-width: 768px) {*/
-/*    .bg-image {*/
-/*        min-height: 40vh;*/
-/*    }*/
-/*    text-class {*/
-/*        font-size:calc(1.525rem + 3.3vw);*/
-/*    }*/
-/*}*/
-
 .verse {
     font-weight: bold;
     max-width: 45vw;
     text-shadow: 3px 3px 3px black;
     color: white;
     margin-top: 3rem;
+    border: ridge white;
 }
 
 .who-are {
