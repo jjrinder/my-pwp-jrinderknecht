@@ -59,6 +59,11 @@ display: block;
     margin-top: 3rem;
 }
 
+.who-are {
+    margin: 6rem 0;
+    font-size: 1.2rem;
+}
+
 .h2 {
     font-weight: bold;
 }
@@ -67,6 +72,7 @@ display: block;
     color: white;
     min-height: 8rem;
     background-color: #425382;
+    border: thick double black;
 }
 
 .eventsTwo {
@@ -91,6 +97,15 @@ img {
 #midweek-img, #camp-img {
     transform: rotate(4deg);
     filter: drop-shadow(10px 10px 4px #425382);
+}
+
+.upcoming {
+    border: thick ridge black;
+    min-height: 20rem;
+}
+
+td {
+    padding-left: 2rem;
 }
 
 .icons {
