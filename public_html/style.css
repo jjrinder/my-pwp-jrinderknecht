@@ -5,13 +5,10 @@ body {
 }
 
 .bg-img {
-    background-color: gray;
     background-blend-mode: multiply;
-    background-image: url(media/main-photo-2.JPG);
+    background: lightgray url(media/main-photo-2.JPG) no-repeat right;
     background-size: cover;
-    background-repeat: no-repeat;
     min-height: 70vh;
-    width: 100%;
 }
 
 .navbar {
