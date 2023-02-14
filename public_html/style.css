@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .bg-img {
@@ -36,10 +37,11 @@ display: block;
 
 .verse {
     font-weight: bold;
-    max-width: 45vw;
     text-shadow: 3px 3px 3px black;
     color: white;
+    max-width: 500px;
     margin-top: 3rem;
+    margin-bottom: 1rem;
     border: ridge white;
 }
 
