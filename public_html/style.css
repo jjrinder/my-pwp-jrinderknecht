@@ -43,6 +43,7 @@ display: block;
     margin-top: 3rem;
     margin-bottom: 1rem;
     border: ridge white;
+    backdrop-filter: blur(4px);
 }
 
 .who-are {
@@ -67,7 +68,7 @@ display: block;
 }
 
 img {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 #sunday-img, #gamenight-img {
@@ -90,8 +91,13 @@ img {
     min-height: 20rem;
 }
 
+
 td {
-    padding-left: 2rem;
+    padding-left: 1rem;
+}
+
+.row2 {
+    background-color: lightgray;
 }
 
 .icons {
