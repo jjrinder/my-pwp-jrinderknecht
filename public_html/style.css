@@ -46,6 +46,10 @@ display: block;
     backdrop-filter: blur(4px);
 }
 
+.verse p {
+    margin: 0.4rem;
+}
+
 .who-are {
     margin: 6rem 0;
     font-size: 1.2rem;
@@ -57,8 +61,9 @@ display: block;
 
 .eventsOne {
     color: white;
+    text-shadow: 3px 3px 3px black;
     min-height: 8rem;
-    background-color: #215382;
+    background-color: #014f86;
     border: thick double black;
 }
 
@@ -97,7 +102,7 @@ td {
 }
 
 .row2 {
-    background-color: #8da1b3;
+    background-color: rgba(217, 234, 246, 0.7);
 }
 
 .icons {
