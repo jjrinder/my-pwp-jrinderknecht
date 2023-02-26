@@ -20,6 +20,9 @@ body {
 li.nav-item:hover {
     background: linear-gradient(cornflowerblue, midnightblue);
     border-radius: 25% 10%;
+    max-width: 8rem;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 #logo {
