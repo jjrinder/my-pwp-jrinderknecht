@@ -17,6 +17,11 @@ body {
     text-shadow: 4px 4px 4px black;
 }
 
+li.nav-item:hover {
+    background: linear-gradient(cornflowerblue, midnightblue);
+    border-radius: 25% 10%;
+}
+
 #logo {
     height: 1.5rem;
     filter: drop-shadow(3px 3px 3px black);
@@ -98,7 +103,6 @@ img {
     min-height: 20rem;
 }
 
-
 td {
     padding-left: 1rem;
 }
@@ -114,6 +118,10 @@ td {
 #map {
     text-decoration: none;
     color: white;
+}
+
+#map:hover {
+    color: cornflowerblue;
 }
 
 footer {
