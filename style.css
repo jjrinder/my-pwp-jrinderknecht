@@ -7,7 +7,7 @@ body {
 
 .bg-img {
     background-blend-mode: multiply;
-    background: lightgray url(media/main-photo-2.JPG) no-repeat right;
+    background: lightgray url(media/main-photo-2.jpg) no-repeat right;
     background-size: cover;
     min-height: 70vh;
 }
@@ -98,7 +98,7 @@ img {
 
 #midweek-img, #camp-img {
     transform: rotate(4deg);
-    filter: drop-shadow(10px 10px 4px #014f86);
+    filter: drop-shadow(10px 10px 4px black);
 }
 
 .upcoming {
