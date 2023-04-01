@@ -7,9 +7,17 @@ body {
 
 .bg-img {
     background-blend-mode: multiply;
-    background: lightgray url(media/main-photo-2.jpg) no-repeat right;
+    background: #DEDDDDFF url(media/main-photo-2.jpg) no-repeat right;
     background-size: cover;
     min-height: 70vh;
+}
+
+#sunday-bg {
+    background-blend-mode: multiply;
+    background: #6d7070 url(media/sundays.jpg) no-repeat right;
+    background-size: cover;
+    min-height: 70vh;
+    filter: grayscale(100%) drop-shadow(-10px 10px 4px black);
 }
 
 .navbar {
@@ -21,8 +29,6 @@ li.nav-item:hover {
     background: linear-gradient(cornflowerblue, midnightblue);
     border-radius: 25% 10%;
     max-width: 8rem;
-    padding-left: auto;
-    padding-right: auto;
 }
 
 #logo {
@@ -60,20 +66,35 @@ display: block;
     margin: 0.4rem;
 }
 
+.txt-img {
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px black;
+    margin-top: 3rem;
+}
+
 .who-are {
-    margin: 6rem 0;
+    padding-top: 1rem;
     font-size: 1.2rem;
+    font-weight: bold;
+    /*border: thick double black;*/
 }
 
 .h2 {
     font-weight: bold;
 }
 
+#announcements {
+    background: linear-gradient(#014f86, #003b62);
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 1rem;
+}
+
 .eventsOne {
     color: white;
     text-shadow: 3px 3px 3px black;
     min-height: 8rem;
-    background-color: #014f86;
+    background: linear-gradient(#014f86, #003b62);
     border: thick double black;
 }
 
