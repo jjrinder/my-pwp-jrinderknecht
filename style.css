@@ -74,8 +74,9 @@ display: block;
 
 .who-are {
     padding-top: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-family: cursive;
     /*border: thick double black;*/
 }
 
