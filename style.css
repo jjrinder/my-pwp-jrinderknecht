@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
-    background: linear-gradient(#f3f4f4, #f3f4f4)
+    background: #f3f4f4;
 }
 
 .bg-img {
@@ -17,13 +17,18 @@ body {
     background-blend-mode: multiply;
     background: #6d7070 url(media/sundays.jpg) no-repeat right;
     background-size: cover;
-    min-height: 70vh;
-    filter: grayscale(100%) drop-shadow(-10px 10px 4px black);
+    min-height: 60vh;
+    filter: grayscale(100%);
 }
 
 .navbar {
     background-color: transparent;
     text-shadow: 4px 4px 4px black;
+}
+
+.navbar-brand p{
+    max-width: 30vw;
+    overflow-wrap: break-word;
 }
 
 li.nav-item:hover {
@@ -46,6 +51,14 @@ li.nav-item:hover {
     font-size: 3rem;
     text-shadow: 4px 4px 4px black;
     margin-top: 3rem;
+}
+
+.title {
+    font-weight: 800;
+    text-shadow: 4px 4px 4px black;
+    min-height: 20vh;
+    margin-bottom: 15vh;
+    font-size: clamp(3.5rem, 12vw, 5rem)
 }
 
 .welcome p {
@@ -86,10 +99,11 @@ display: block;
 }
 
 #announcements {
-    background: linear-gradient(#014f86, #003b62);
+    background: linear-gradient(#014f86, #013659);
     color: white;
     text-shadow: 3px 3px 3px black;
     margin-bottom: 1rem;
+    filter: drop-shadow(0 0 1rem white);
 }
 
 .eventsOne {
@@ -97,7 +111,7 @@ display: block;
     text-shadow: 3px 3px 3px black;
     min-height: 8rem;
     background: linear-gradient(#014f86, #003b62);
-    border: thick double black;
+    filter: drop-shadow(0 0 2rem black);
 }
 
 .eventsTwo {
@@ -107,21 +121,6 @@ display: block;
 
 img {
     margin: 0.5rem 0;
-}
-
-#sunday-img, #gamenight-img {
-    transform: rotate(-4deg);
-    display: inline-block;
-    filter: drop-shadow(-10px 10px 4px black);
-}
-
-#sunday-img {
-    filter: grayscale(100%) drop-shadow(-10px 10px 4px black);
-}
-
-#midweek-img, #camp-img {
-    transform: rotate(4deg);
-    filter: drop-shadow(10px 10px 4px black);
 }
 
 .upcoming {
