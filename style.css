@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
+    background: linear-gradient(#f3f4f4, #f3f4f4)
 }
 
 .bg-img {
@@ -75,8 +76,8 @@ display: block;
 .who-are {
     padding-top: 1rem;
     font-size: 1.3rem;
-    font-weight: normal;
-    font-family: cursive;
+    font-weight: bold;
+    font-family: roboto;
     /*border: thick double black;*/
 }
 
@@ -126,6 +127,7 @@ img {
 .upcoming {
     border: thick ridge black;
     min-height: 20rem;
+    background: white;
 }
 
 td {
