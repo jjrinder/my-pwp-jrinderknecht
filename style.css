@@ -17,8 +17,28 @@ body {
     background-blend-mode: multiply;
     background: #6d7070 url(media/sundays.jpg) no-repeat right;
     background-size: cover;
-    min-height: 60vh;
+    min-height: 55vh;
     filter: grayscale(100%);
+}
+
+#mid-bg {
+    background-blend-mode: multiply;
+    background: #d2cbcb url(media/mid-week.jpg) no-repeat right;
+    background-size: cover;
+    min-height: 55vh;
+}
+
+#game-bg {
+    background-blend-mode: multiply;
+    background: #d2cbcb url(media/game-night.jpeg) no-repeat right;
+    background-size: cover;
+    min-height: 55vh;
+}
+
+#camp-bg {
+    background: #6d7070 url(media/camp.jpg) no-repeat right;
+    background-size: cover;
+    min-height: 55vh;
 }
 
 .navbar {
@@ -91,7 +111,6 @@ display: block;
     font-size: 1.3rem;
     font-weight: bold;
     font-family: roboto;
-    /*border: thick double black;*/
 }
 
 .h2 {
@@ -111,7 +130,7 @@ display: block;
     text-shadow: 3px 3px 3px black;
     min-height: 8rem;
     background: linear-gradient(#014f86, #003b62);
-    filter: drop-shadow(0 0 2rem black);
+    filter: drop-shadow(0 0 1rem black);
 }
 
 .eventsTwo {
