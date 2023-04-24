@@ -23,7 +23,7 @@ body {
 
 #mid-bg {
     background-blend-mode: multiply;
-    background: #d2cbcb url(media/mid-week.jpg) no-repeat right;
+    background: #d2cbcb url(media/mid-week.jpg) no-repeat left;
     background-size: cover;
     min-height: 55vh;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 #camp-bg {
-    background: #6d7070 url(media/camp.jpg) no-repeat right;
+    background: #6d7070 url(media/camp.jpg) no-repeat left;
     background-size: cover;
     min-height: 55vh;
 }
